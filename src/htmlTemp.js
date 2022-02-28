@@ -42,13 +42,13 @@ const generateCard = function(arr) {
     // Criteria for display
     let roleInfo = "";
 
-    if (arr.title === "Manager") {
+    if (arr.title === "🏦 Manager") {
         positionIcon = `<i class="fa-duotone fa-briefcase"></i>`;
         roleInfo = `Office Number: ${arr.officeNumber}`;
-    } else if (arr.title === "Engineer") {
+    } else if (arr.title === "🧑🏽‍💻 Engineer") {
         positionIcon = `<i class="fa-duotone fa-helmet-safety"></i>`;
         roleInfo = `GitHub Username: <a href="https://github.com/${arr.github}" target="_blank">${arr.github}</a>`;
-    } else if (arr.title === "Intern") {
+    } else if (arr.title === "🧑🏾‍🏫 Intern") {
         positionIcon = `<i class="fa-solid fa-screen-users"></i>`;
         roleInfo = `School: ${arr.employeeSchool}`;
     }
