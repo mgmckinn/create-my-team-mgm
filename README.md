@@ -18,6 +18,10 @@ This application allows users to create an ooutline of their team with contact i
 npm i   npm inquirier
 
 ## Usage
+
+https://user-images.githubusercontent.com/91358445/156494322-51289009-6563-45af-8f0e-8a4eaaa6851d.mp4
+
+
 install node packages then answer each question about your employees
 
 # License
